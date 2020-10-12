@@ -1,4 +1,4 @@
-import calculator from '../javascript/calculator'
+import calculator from '../src/calculator'
 
 test('returns the result of sum a + b', () => {
   expect(calculator.sum(4, 5)).toBe(9);
