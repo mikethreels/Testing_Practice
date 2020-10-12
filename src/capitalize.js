@@ -1,11 +1,9 @@
 const capMod = (() => {
-  const capitalize = (str) => {
-    return str[0].toUpperCase() + str.substring(1)
-  };
+  const capitalize = (str) => str[0].toUpperCase() + str.substring(1);
 
-  return{
+  return {
     capitalize,
-  }
+  };
 })();
 
 export default capMod;

@@ -1,5 +1,5 @@
-import capMod from '../src/capitalize'
+import capMod from '../src/capitalize';
 
 test('capitalizes the first letter of the given string', () => {
   expect(capMod.capitalize('this is a test string')).toBe('This is a test string');
-})
+});
