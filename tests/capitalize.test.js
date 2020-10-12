@@ -1,4 +1,3 @@
-const { TestScheduler } = require("jest");
 import capMod from '../javascript/capitalize'
 
 test('capitalizes the first letter of the given string', () => {
